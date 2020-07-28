@@ -1,9 +1,6 @@
 name: test-schedule
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: '*/2 * * * *'  
 
